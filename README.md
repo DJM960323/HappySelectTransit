@@ -1,0 +1,2 @@
+# HappySelectTransit
+HappySelect只支持单列表随机选择，HappySelectTransit支持多列表随机选择
