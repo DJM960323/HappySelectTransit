@@ -150,8 +150,11 @@ public class AddItemActivity extends AppCompatActivity {
                 break;
             case 4:
                 dateList1.setBackground(null);
+                dateList1.setTextColor(Color.parseColor("#767571"));
                 dateList2.setBackground(null);
+                dateList2.setTextColor(Color.parseColor("#767571"));
                 dateList3.setBackground(null);
+                dateList3.setTextColor(Color.parseColor("#767571"));
                 dateList4.setBackground(getResources().getDrawable(R.drawable.data_list_text_bg));
                 dateList4.setTextColor(getColor(R.color.data_list_name_tc));
                 itemList.clear();
@@ -273,8 +276,11 @@ public class AddItemActivity extends AppCompatActivity {
                 break;
             case R.id.date_list_4:
                 dateList1.setBackground(null);
+                dateList1.setTextColor(Color.parseColor("#767571"));
                 dateList2.setBackground(null);
+                dateList2.setTextColor(Color.parseColor("#767571"));
                 dateList3.setBackground(null);
+                dateList3.setTextColor(Color.parseColor("#767571"));
                 dateList4.setBackground(getResources().getDrawable(R.drawable.data_list_text_bg));
                 dateList4.setTextColor(getColor(R.color.data_list_name_tc));
                 editor.putInt("dataListFlag",4);
